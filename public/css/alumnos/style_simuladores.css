@@ -1,0 +1,122 @@
+/*****  TAB DE SIMULADORES  **********/
+.navegacion_alumnos{
+
+    background-color: #295120;
+    padding-left: 50px;
+    height:70px;
+}
+
+.navegacion_alumnos a{
+    color: white;
+    font-size: 17px;
+} 
+
+.tab_simuladores{
+    color: black;
+    border-bottom: 6px solid white;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.image_publicidad{
+	height: 70px;
+	width: 450px;
+}
+
+/*/////////////////////////// PARENT CONTAINER ////////////////////////////*/
+.parent{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	overflow-y: auto;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+}
+
+/******************* CONTAINER del simulador**********************************/
+.container_simulador{
+	background-color: white;
+	margin: 0 auto;
+	padding: 20px 0px 20px 0px;
+	box-shadow: 5px 5px 5px 0px gray;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+/* - Esto edita el título del simulador - */
+.titulo_simulador{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	border-bottom: 1px solid #295120;
+}
+
+
+/*///////////////////////////TABS//////////////////////////////*/
+
+.nav-tabs{
+  background-color:white;
+  width: 100%;
+  height: 45px;
+}
+
+
+.nav-item{
+	border: medium none;
+  	color: #295120;
+}
+.container_tabs .nav-item:hover{
+	background-color: #295120 !important;
+	border: medium none;
+    border-radius: 0;
+    color:white;
+}
+
+.tab-content{
+    background-color:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.active[data-toggle='tab']{
+  background-color: #295120 !important;
+  color: white !important;
+}
+
+
+/************* DESCRIPCION******************/
+/************* MATERIAL*********************/
+
+
+/************* EXÁMENES*********************/
+
+.titulo_categoria{
+	font-weight: bold;
+}
+
+.examen a{
+	text-decoration: none;
+}
+
+.titulo_examen{
+	
+	font-size: 15px;
+}
+
+.button_tomar_examen{
+	font-size: 10px;
+}
+
+.titulo_intento{
+
+	font-size: 15px;
+}
+
+.numero_intento{
+	font-size: 15px;
+}

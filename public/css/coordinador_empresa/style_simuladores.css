@@ -1,0 +1,134 @@
+/*****  TAB DE SIMULADORES  **********/
+.navegacion_coordinador_empresa{
+
+	background-color: #295120;
+	padding-left: 50px;
+	height:70px;
+
+}
+
+.add_docente .btn, .add_alumno .btn{
+	background: #295120;
+	border-color: #295120;
+}
+
+.add_docente .btn:hover, .add_alumno .btn:hover{
+	background: rgba(41,81,32,.95);
+}
+
+.select_docente .btn, .select_alumno .btn{
+	background: #9e7413;
+	border-color: #9e7413;
+}
+
+.select_docente .btn:hover, .select_alumno .btn:hover{
+	background: rgba(158,116,19,.95);
+}
+
+.navegacion_coordinador_empresa a{
+	color: white;
+	font-size: 17px;
+}
+
+.tab_simuladores{
+	color: white;
+	border-bottom: 6px solid white;
+	padding-top: 20px;
+	height: 100%;
+}
+
+/* ------CONTAINER--------*/
+
+.container_simuladores{
+	height: 100%;
+	padding-top: 25px;
+}
+
+
+/* ------CARD--------*/
+
+.number_simulador{
+	font-size: 15px;
+}
+
+.title_simulador{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.time_simulador{
+	font-size: 15px;
+}
+
+.button_simulador{
+	text-align: right;
+	color: white;
+}
+
+.btn-secondary{
+	background-color: #295120;
+}
+
+.triangle_simulador{
+	text-align: right;
+}
+
+.add_colaboradores{
+	padding-top: 10px;
+}
+.fa-user-plus{
+	padding-right: 5px;
+}
+
+
+/* - CUADRO DESPLEGABLE - */
+.card{
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+.description_simulador{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.description_simulador span{
+	font-weight: normal;
+	font-size: 15px
+}
+
+.text_notas{
+	font-size: 17px;
+}
+
+.download_reporte{
+	text-align: right;
+}
+
+.download_reporte button span{
+	padding-left: 5px;
+}
+
+.title_notas{
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.students_simulador{
+	font-size: 15px;
+}
+
+.fa-user{
+	padding-right: 5px;
+}
+
+.code_colaborador{
+	text-align: center;
+}
+
+.tries_colaborador{
+	text-align: center;
+}
+
+.average_colaborador{
+	text-align: center;
+}

@@ -1,0 +1,720 @@
+/********** BARRA SUPERIOR **********/
+
+.info_curso{
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.input_curso{
+	padding-left: 0px;
+	padding-top: 15px;
+	display: inline;
+	background-color: white;
+}
+
+.input_curso form input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 400px;
+}
+
+.upload_button_video a{
+	cursor: pointer;
+}
+
+.text_add{
+	background-color: #295120;
+	color: white;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+.added_examen a{
+	text-decoration: none;
+}
+
+.title_actividad a{
+	text-decoration: none;
+}
+
+
+/********** TABS **********/
+
+.nav-tabs{
+  background-color:white;
+  width: 100%;
+  border-bottom: 1px solid black
+  height: 100px;
+}
+
+.nav-tabs > li > a{
+  border: medium none;
+  color: #295120;
+}
+.nav-tabs > li > a:hover{
+  background-color: #295120 !important;
+    border: medium none;
+    border-radius: 0;
+    color:white;
+}
+
+.tab-content{
+    background-color:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.active[data-toggle='tab']{
+  background-color: #295120 !important;
+  color: white !important;
+}
+
+/********** CONTAINER DE INTRODUCCION **********/
+.select_type select{
+	margin-bottom: 10px;
+}
+
+.container_tablas{
+	height: auto;
+	max-height: 100px;
+}
+
+.container_introduccion{
+	background: white;
+	margin: 35px 35px 35px 35px;
+	height: 250px;
+	padding: 10px 20px 10px 20px;
+	box-shadow: 5px 5px 5px 0px gray;
+	height: auto;
+}
+
+.title_intro input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 500px;
+} 
+
+.description_curso form textarea{
+	width: 100%;
+	min-height: 120px;
+	resize: none;
+}
+
+.btnCrearNuevoCurso{
+	background: #295120;
+	color: white;
+}
+
+.btnCrearNuevoCurso:hover{
+	background: rgba(41,81,32,.93);
+}
+
+#asistencia .container_tablas td i:hover{
+	cursor: pointer;
+}
+
+/********** CONTAINER DE SESIONES **********/
+
+.add_sesion{
+	text-align: center;
+	border: 2px dashed #295120;
+	padding-top: 15px;
+	color: #295120;
+	margin-top: 15px;
+}
+
+.sesiones_curso a{
+	text-decoration: none;
+}
+
+.add_sesion:hover{
+	color: white;
+}
+
+.container_sesion{
+	background-color: white;
+	box-shadow: 5px 5px 5px 0px gray;
+	border-radius: 2px;
+	padding: 10px 30px 10px 30px;
+}
+
+.btn-secondary{
+	margin-top: 5px;
+}
+
+.delete_column{
+	text-align: right;
+	padding-top: 10px;
+}
+.content_curso{
+	padding: 0px;
+}
+
+
+/********** CONTAINER DE EXAMENES **********/
+
+.added_examen h5{
+	font-size: 17px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+
+.container_examenes{
+	width: 100%;
+	margin-top: 30px;
+	background-color: white;
+	padding: 10px 30px 10px 30px;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+
+.delete_examen{
+	text-align: right;
+	padding-top: 5px;
+}
+
+.delete_examen span:hover{
+	cursor: pointer;
+}
+
+
+.new_examen{
+	padding-left: 20px;
+}
+
+.added_examen{
+	border-right: 2px dashed black;
+}
+
+.new_examen h5{
+	font-size: 17px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+
+}
+
+.new_examen form{
+	margin-top: 10px;
+}
+
+.new_examen form input[type="text"]{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 300px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+
+
+/********** CONTAINER DE ACTIVIDADES **********/
+
+.added_actividad{
+	border-right: 2px dashed black;
+}
+
+.added_actividad h5{
+	font-size: 17px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+
+.container_actividades{
+	width: 100%;
+	margin-top: 30px;
+	background-color: white;
+	padding: 10px 30px 10px 30px;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+
+.delete_actividad{
+	text-align: right;
+	padding-top: 5px;
+}
+
+.delete_actividad span:hover{
+	cursor: pointer;
+}
+
+
+.new_actividad{
+	padding-left: 20px;
+}
+
+.new_actividad h5{
+	font-size: 17px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+
+}
+
+.new_actividad form{
+	margin-top: 10px;
+}
+
+.new_actividad form input[type="text"]{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 300px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+
+/********** CONTAINER DE CERTIFICADOS **********/
+
+.main_container_certificado{
+	background: white;
+	margin: 35px 35px 35px 35px;
+	box-shadow: 5px 5px 5px 0px gray;
+	padding-bottom: 20px;
+}
+
+.main_container_certificado a{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+/********** texto del título **********/
+.header_certificado{
+	border-bottom: 1px solid black;
+	margin: 10px 20px 10px 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+
+/********** info de alumnos **********/
+.upload_text_certificado{
+	border-bottom: 1px solid black;
+	margin: 10px 20px 10px 20px;
+	padding-bottom: 10px;
+}
+
+.upload_button_certificado{
+	text-align: right;
+}
+
+
+.save_button_certificado{
+	text-align: right;
+}
+
+.title_certificado input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 300px;
+}
+
+.options_certificado{
+	text-align: right;
+}
+
+
+
+
+/********** CONTAINER DE DOCENTE **********/
+
+.people_curso{
+	background-color: white;
+}
+
+.option_docente div a{
+	color: #295120;
+}
+
+
+.option_docente{
+	padding-left: 15px;
+}
+
+.text_docente{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.add_docente{
+	padding-bottom: 10px;}
+
+.add_docente a, .select_docente a{
+	text-decoration: none;
+}
+
+.add_docente a:hover, .select_docente a:hover{
+	color: rgba(41,81,32,.85);
+}
+
+.add_docente .btn, .add_alumno .btn{
+	background: #295120;
+	border-color: #295120;
+}
+
+.add_docente .btn:hover, .add_alumno .btn:hover{
+	background: rgba(41,81,32,.95);
+}
+
+.select_docente .btn, .select_alumno .btn{
+	background: #9e7413;
+	border-color: #9e7413;
+}
+
+.select_docente .btn:hover, .select_alumno .btn:hover{
+	background: rgba(158,116,19,.95);
+}
+
+.select_docente{
+	padding-bottom: 10px;
+}
+
+.added_docente{
+	padding-bottom: 10px;
+}
+
+.added_docente span{
+	padding-top: 3px;
+	padding-right: 5px;
+}
+
+
+/********** CONTAINER DE ALUMNOS **********/
+
+.modal input, .modal textarea{
+	border: none
+}
+
+.option_alumno div a{
+	color: #295120;
+}
+
+
+.option_alumno{
+	padding-left: 15px;
+}
+
+.text_alumnos{
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.add_alumno a, .select_alumno a{
+	text-decoration: none;
+}
+
+.add_alumno a:hover, .select_alumno a:hover{
+	color: rgba(41,81,32,.85);
+}
+
+.add_alumno{
+	padding-bottom: 10px;
+}
+
+.select_alumno{
+	padding-bottom: 10px;
+}
+
+.added_alumnos{
+	padding-bottom: 10px;
+}
+
+.added_alumnos span{
+	padding-top: 3px;
+	padding-right: 5px;
+}
+
+/****************************** POP-UP DE AGREGAR DOCENTES *******************************/
+
+.modal .inner-addon{
+	position: relative;
+}
+
+.modal .inner-addon .concepta_icons{
+	position: absolute;
+	padding: 10px;
+	pointer-events: none;
+}
+
+.modal .right-addon .concepta_icons{
+	right: 0;
+}
+
+.body_add_docente{
+	overflow-y: scroll;
+	height: 100%;
+}
+
+
+.photo_new_docente{
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.circle_photo{
+	background: gray;
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	margin-left: 17%;
+	margin-top: 8%;
+	border: 3px solid black;
+}
+
+.info_new_docente input{
+	color: #295120;
+}
+
+.info_new_docente hr{
+	margin: 0px;
+}
+
+.description_docente{
+	width: 100%;
+}
+/****************************** FIN DE POP-UP DE AGREGAR DOCENTES *******************************/
+
+
+
+
+/****************************** POP-UP DE SELECCIONAR DOCENTE *******************************/
+
+.container_docentes{
+	text-align: center;
+}
+
+.body_select_docente{
+	overflow-y: scroll;
+	height: 500px;
+}
+
+.col-docente{
+	padding: 5px; 
+}
+
+.highlightbox_docente{
+	padding-bottom: 7px;
+}
+
+.col-docente input {
+	visibility: hidden;
+}
+
+.col-docente label {
+    cursor: pointer;
+}
+
+.box_docente{
+	border-radius: 20px;
+	border: 3px solid black;
+	height: 150px;
+	width: 130px;
+	font-size: 10px;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	background-color: white;
+
+}
+
+.box_docente_top{
+	border-bottom: 3px solid black;
+}
+
+.box_docente_bottom{
+	padding-top: 10px;
+}
+
+.box_docente_bottom p{
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.row_docente{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+/* - Esta div solo modifica el contenido de la foto - */
+.photo_docente{
+    width: 80px;
+    height: 80px;
+}
+
+
+.highlight_docente{
+	background-color: #295120;
+	border-radius: 20px;
+
+}
+
+/*************************** FIN DE POP-UP DE SELECCIONAR DOCENTE ********************************/
+
+
+/****************************** POP-UP DE AGREGAR ALUMNOS *******************************/
+
+
+.body_add_alumnos{
+	overflow-y: scroll;
+	height: 100%;
+}
+
+
+.photo_new_alumno{
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.circle_photo{
+	background: gray;
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	margin-left: 17%;
+	margin-top: 8%;
+	border: 3px solid black;
+}
+
+.info_new_alumno input{
+	width: 300px;
+	border:none;
+	font-weight: bold;
+	color: #295120;
+}
+
+.info_new_alumno hr{
+	margin: 0px;
+}
+
+/****************************** FIN DE POP-UP DE AGREGAR ALUMNOS *******************************/
+
+/****************************** POP-UP DE SELECCIONAR ALUMNOS *******************************/
+
+.container_alumnos{
+	text-align: center;
+}
+
+.body_select_alumnos{
+	overflow-y: scroll;
+	height: 500px;
+}
+
+.col-alumno{
+	padding: 5px; 
+}
+
+.highlightbox_alumno{
+	border-radius: 20px;
+	padding-bottom: 7px;
+}
+
+.col-alumno input {
+	visibility: hidden;
+}
+
+.col-alumno label {
+    cursor: pointer;
+}
+
+.box_alumno{
+	border-radius: 20px;
+	border: 3px solid black;
+	height: 150px;
+	width: 130px;
+	font-size: 10px;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	background-color: white;
+
+}
+
+.box_alumno_top{
+	border-bottom: 3px solid black;
+}
+
+.box_alumno_bottom{
+	padding-top: 10px;
+}
+
+.box_alumno_bottom p{
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.row_alumnos{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+/* - Esta div solo modifica el contenido de la foto - */
+.photo_alumno{
+    width: 80px;
+    height: 80px;
+}
+
+
+.highlight_alumno{
+	background-color: #295120;
+
+}
+
+/*.table-fixed{
+  width: 100%;
+}
+
+.table-fixed tbody{
+    overflow-y:auto;
+}
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th{
+    display:block;
+  }
+
+  .table-fixed tbody td{
+  	float: left;
+  }
+
+  .table-fixed thead tr th{
+  	float:left;
+  }*/
+
+/*************************** FIN DE POP-UP DE SELECCIONAR ALUMNOS ********************************/
+
+
+
+
+/********** ÁREA DE SESIONES **********/
+
+#sesion a:hover{
+	text-decoration: none;
+}
+/********** FIN DE ÁREA DE SESIONES **********/

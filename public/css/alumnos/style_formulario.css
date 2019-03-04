@@ -1,0 +1,82 @@
+.btn-secondary{
+	background: #295120;
+	border-color: #295120
+}
+
+.container_main{
+	margin: auto;
+overflow: scroll;
+height: 80%;
+}
+
+
+/********** PREGUNTAS AGREGADAS **********/
+
+.container_added_preguntas{
+	background: white;
+	margin: 35px 35px 35px 5px;
+	padding: 35px 35px 35px 35px;
+	width: 100%;
+
+}
+
+.container_added_preguntas h5{
+	font-weight: bold;
+}
+
+.text{
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.text_final_score{
+	text-align: right;
+}
+.final_score{
+	width: 50px;
+}
+
+
+.added_preguntas{
+	background: none;
+}
+
+
+.container_added_preguntas textarea{
+	width: 100%;
+}
+
+.text_score{
+	text-align: right;
+	padding-top: 15px;
+}
+
+.score{
+	width: 50px;
+}
+
+.label-info {
+  background-color: #5bc0de;
+  padding: 3px;
+}
+
+.question_delete{
+	padding-top: 20px;
+}
+
+.video_pregunta iframe{
+	width: 400px !important;
+	height: 200px !important;
+}
+
+.imagen_pregunta img{
+	width: 400px !important;
+	height: 200px !important;
+}
+.options-questions{
+	display: flex;
+}
+.option-answer{
+	display: none;
+}

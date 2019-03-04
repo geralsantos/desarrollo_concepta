@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+/* - Estructura base del login - */
+
+.login_user{
+	width: 320px;
+	height: auto;
+	background: white;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 0px 20px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px 0px gray;
+	border: 1px solid grey;
+}
+
+
+/* - Icono dentro del Login - */
+
+.concepta_logo{
+	width: 150px;
+	height: 100px;
+	top: 50px;
+	border-width: 2px;
+	background: #fff;
+	padding: 10px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.select_user{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.select_user select{
+	width: 100%;
+}
+
+/* - Todo el contenido en los parrafos - */
+.login_user p{
+	margin: 0;
+	font-weight: 900;
+	white-space: nowrap;
+}
+
+/* - Input de usuario - */
+.login_user input[type="text"]{
+	width: 160px;
+	margin-left: 25px;
+	text-align: center;
+	background: transparent;
+	height: 30px;
+	font-size: 13px;
+	border-style: none;
+	white-space: nowrap;
+}
+
+/* - Input de contraseña - */
+
+.login_user input[type="password"]{
+	width: 160px;
+	text-align: center;
+	background: transparent;
+	height: 30px;
+	font-size: 13px;
+	border-style: none;
+}
+
+/* - Input del botón - */
+
+/*.login_user input[type="submit"]{
+	width: 80%;
+	border:none;
+	height:40px;
+	background:#295120;
+	color:#fff;
+	font-size:18px;
+	border-radius: 20px;
+	left: 50%;
+	top: 10px;
+	position: relative;
+	transform: translate(-50%,-50%);
+
+}*/
+
+.btn, a{
+	cursor: pointer;
+}
+
+.login_user ul li{
+	list-style: none;
+}
+
+.login_user div.alert ul li{
+	font-size: 15px;
+}
+
+.login_user button[type='submit'], .login_user button[type='submit']:disabled{
+	background: #295120;
+	border: 1px solid #295120;
+	border-radius: 15px;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+}
+
+.login_user button[type='submit']:hover{
+	background: rgba(41, 81, 32, .9);
+}
+
+.login_user input:hover[type="submit"]{
+	background-color:#fb2525;
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+}
+
+
+/* - Input del ¿Olvidó Contrasena? - */
+
+.login_user a[href="#"]{
+	color:#00008b;
+	left: 15%;
+	position: relative;
+	transform: translate(-50%,-50%);
+	text-decoration: none;
+}
+
+.login_user a:hover[href="#"]{
+	color:rgba(0, 0, 139, .85);
+}
+
+/* Estilos para la ventana modal de ¿Olvidaste tu contraseña? */
+
+#login_concepta #modalForgetPass .inner-addon{
+	position: relative;
+}
+
+#login_concepta #modalForgetPass .inner-addon .concepta_icons{
+	position: absolute;
+	padding: 10px;
+	pointer-events: none;
+}
+
+#login_concepta #modalForgetPass .right-addon .concepta_icons{
+	right: 0;
+}
+
+#login_concepta #modalForgetPass .right-addon input{
+	padding-right: 30px;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .2);
+}

@@ -1,0 +1,113 @@
+/*****  TAB DE evaluacionES  **********/
+.navegacion_admin{
+
+    background-color: #295120;
+    padding-left: 50px;
+    height:70px;
+}
+
+.navegacion_admin a{
+    color: white;
+    font-size: 17px;
+}
+
+.tab_evaluaciones{
+    color: black;
+    border-bottom: 6px solid white;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.button_ingreso{
+    background-color: #295120;
+    border: 1px solid rgba(41,81,32,1);
+}
+
+.button_ingreso:hover{
+    background-color: rgba(41,81,32,.95);
+    border: 1px solid rgba(41,81,32,.95);
+}
+
+/* ------CONTAINER GENERAL--------*/
+
+.container_evaluaciones{
+    height: 100%;
+    padding: 50px 100px 50px 100px;
+
+}
+
+/* ------CONTAINER EVALUACIONES--------*/
+.added_evaluaciones{
+}
+
+
+/* ------CONTAINER DE CONTENIDO--------*/
+
+.add_content{
+    background-color: white;
+    padding: 30px 30px 30px 30px;
+}
+
+
+/********** NUEVO TEMA **********/
+
+.new_tema{
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+
+}
+
+.new_tema h5{
+    font-size: 17px;
+}
+
+.new_tema form{
+    margin-top: 0px;
+}
+
+.new_tema form input{
+    border:none;
+    border-left: 5px solid green;
+    background: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 300px;
+}
+
+
+
+
+/* ------AGREGAR evaluacion--------*/
+
+.new_evaluacion button{
+    margin-top: 15px;
+}
+
+/* ------CARD--------*/
+.evaluacion{
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px gray;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+.title_evaluacion{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.time_evaluacion{
+    font-size: 15px;
+}
+
+.students_evaluacion{
+    text-align: right;
+}
+
+.students_evaluacion span{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+}

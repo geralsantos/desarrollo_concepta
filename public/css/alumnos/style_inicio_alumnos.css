@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/*****PRIMERA BARRA**********/
+
+.logo{
+	height: 50px;
+	width: 70px;
+}
+
+.dropdown_usuario{
+	font-size: 20px;
+	width: 200px;
+}
+
+.container_dropdown{
+	padding-left: 20px;
+	float: left;
+}
+
+
+/* - Base para la navegación entre productos - */
+
+.navegacion > ul{
+	background-color: #000;
+	list-style: none;
+	text-align: left;
+	line-height: 80px;
+	height: 80px;
+}
+
+
+/* - Diseño de alineación de los títulos en la navegación- */
+.navegacion > ul > li{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* - Diseño de los títulos en la navegación- */
+.navegacion > ul> li > a{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 900;
+}
+
+
+/* - Diseño del hover encima de los títulos en la navegación- */
+.navegacion > ul> li:hover{
+	background-color: #399077;
+}
+
+
+
+/* - Diseño del banner de publicidad- */
+
+.publicidad{
+	width: 400px;
+	height: 80px;
+	position: absolute;
+	left: 60%;
+	top: 100px;
+}

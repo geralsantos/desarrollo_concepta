@@ -1,0 +1,110 @@
+/*****  TAB DE EVALUACIONES  **********/
+.navegacion_alumnos{
+
+    background-color: #295120;
+    padding-left: 50px;
+    height:70px;
+}
+
+.navegacion_alumnos a{
+    color: white;
+    font-size: 17px;
+}
+
+.tab_evaluaciones{
+    color: black;
+    border-bottom: 6px solid white;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.image_publicidad{
+	height: 70px;
+	width: 500px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+}
+
+/*/////////////////////////// PARENT CONTAINER ////////////////////////////*/
+.parent{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/******************* CONTAINER de la evaluación**********************************/
+.container_evaluacion{
+	background-color: white;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+/* - Esto edita el título de la evaluación - */
+.titulo_evaluacion{
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	padding-right: 20px;
+}
+
+/* ------Botón "REALIZA DEMO" ------*/
+.button_demo_evaluacion{
+	float: left;
+}
+
+
+/******* CONTAINER del texto "DESEMPEÑO ALCANZADO" y la nota obtenida ********/
+.container_desempeno{
+	text-align: right;
+	padding-bottom: 10px;
+}
+
+/*-------------------Texto "NOTA OBTENIDA"------------------ */
+.nota_obtenida{
+	float: right;
+	padding-right: 20px;
+}
+/*-------------------Cuadro de nota obtenida ------------------ */
+.desempeno_nota{
+	border: 1px solid black;
+	float:right;
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+	right: 10px;
+}
+
+/* ------Botón "TOMAR EXAMEN" ------*/
+.button_tomar_examen{
+	float: right;
+}
+
+/*///////////////////////////TABS//////////////////////////////*/
+/************* DESCRIPCION******************/
+/************* MATERIAL*********************/
+
+.icon_material{
+	height: 25px;
+	width: 25px;
+	float: left;
+}
+
+.text_material{
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.icon_download{
+	height: 25px;
+	width: 20px;
+	float: left;
+	cursor: pointer; 
+}

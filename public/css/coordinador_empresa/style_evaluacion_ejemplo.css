@@ -1,0 +1,212 @@
+/********** BARRA SUPERIOR **********/
+
+.info_evaluacion{
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.input_evaluacion{
+	padding-left: 0px;
+	padding-top: 15px;
+	display: inline;
+	background-color: white;
+}
+
+.add_docente .btn, .add_alumno .btn{
+	background: #295120;
+	border-color: #295120;
+}
+
+.add_docente .btn:hover, .add_alumno .btn:hover{
+	background: rgba(41,81,32,.95);
+}
+
+.select_docente .btn, .select_alumno .btn{
+	background: #9e7413;
+	border-color: #9e7413;
+}
+
+.select_docente .btn:hover, .select_alumno .btn:hover{
+	background: rgba(158,116,19,.95);
+}
+
+.input_evaluacion form input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 400px;
+}
+
+.text_add{
+	background-color: #295120;
+	color: white;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+/********** TABS **********/
+
+.content_evaluacion{
+	padding: 30px;
+}
+
+.content_evaluacion textarea{
+	width: 100%;
+	height: 100px;
+}
+
+
+/********** CONTAINER DE ALUMNOS **********/
+
+.people_evaluacion{
+	background-color: white;
+}
+
+.option_alumno div a{
+	color: #295120;
+}
+
+
+.option_alumno{
+	padding-left: 15px;
+}
+
+.text_alumnos{
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.add_alumno{
+	padding-bottom: 10px;
+}
+
+.select_alumno{
+	padding-bottom: 10px;
+}
+
+.added_alumnos{
+	padding-bottom: 10px;
+}
+
+.added_alumnos span{
+	padding-top: 3px;
+	padding-right: 5px;
+}
+
+
+/****************************** POP-UP DE AGREGAR ALUMNOS *******************************/
+
+
+.body_add_alumnos{
+	overflow-y: scroll;
+	height: 100%;
+}
+
+
+.photo_new_alumno{
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.circle_photo{
+	background: gray;
+	height: 125px;
+	width: 125px;
+	border-radius: 50%;
+	margin-left: 17%;
+	margin-top: 8%;
+	border: 3px solid black;
+}
+
+.info_new_alumno input{
+	width: 300px;
+	border:none;
+	font-weight: bold;
+	color: #295120;
+}
+
+.info_new_alumno hr{
+	margin: 0px;
+}
+
+/****************************** FIN DE POP-UP DE AGREGAR ALUMNOS *******************************/
+
+/****************************** POP-UP DE SELECCIONAR ALUMNOS *******************************/
+
+.container_alumnos{
+	text-align: center;
+}
+
+.body_select_alumnos{
+	overflow-y: scroll;
+	height: 500px;
+}
+
+.col-alumno{
+	padding: 5px; 
+}
+
+.highlightbox_alumno{
+	border-radius: 20px;
+	padding-bottom: 7px;
+}
+
+.col-alumno input {
+	visibility: hidden;
+}
+
+.col-alumno label {
+    cursor: pointer;
+}
+
+.box_alumno{
+	border-radius: 20px;
+	border: 3px solid black;
+	height: 150px;
+	width: 130px;
+	font-size: 10px;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	background-color: white;
+
+}
+
+.box_alumno_top{
+	border-bottom: 3px solid black;
+	padding-top: 5px;
+}
+
+.box_alumno_bottom{
+	padding-top: 3px;
+}
+
+.box_alumno_bottom p{
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.row_alumnos{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+/* - Esta div solo modifica el contenido de la foto - */
+.photo_alumno{
+    width: 80px;
+    height: 80px;
+}
+
+
+.highlight_alumno{
+	background-color: #295120;
+
+}
+
+/*************************** FIN DE POP-UP DE SELECCIONAR ALUMNOS ********************************/

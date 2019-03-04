@@ -1,0 +1,54 @@
+/*****  TAB DE CURSOS  **********/
+.navegacion_admin{
+
+    background-color: #295120;
+    padding-left: 50px;
+    height:70px;
+}
+
+.container_empresas{
+    margin: 0 20px;
+}
+
+.navegacion_admin a{
+    color: white;
+    font-size: 17px;
+}
+
+.tab_empresas{
+    color: black;
+    border-bottom: 6px solid white;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+#empresas .table td{
+    vertical-align: middle;
+}
+
+#empresas .table thead th{
+    vertical-align: middle;
+}
+
+#empresas .table img{
+    border: 2.3px dashed #000;
+    border-radius: 50%;
+}
+
+/*****  MAIN CONTAINER  **********/
+
+.container_empresas{
+    margin-top: 35px;
+    background-color: white;
+}
+
+/*****  TABLA  **********/
+
+.input_product div input{
+    width: 50px;
+}

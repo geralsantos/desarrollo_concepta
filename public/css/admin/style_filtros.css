@@ -1,0 +1,213 @@
+/*****  TAB DE CURSOS  **********/
+.navegacion_admin{
+
+    background-color: #295120;
+    padding-left: 50px;
+    height:70px;
+}
+
+.navegacion_admin a{
+    color: white;
+    font-size: 17px;
+}
+
+.container_icon{
+  position: absolute;
+  right: 260px;
+  top: 1px;
+}
+
+#navbarDropdown{
+  position: relative;
+  top: -4px;
+}
+
+.tab_filtros{
+    color: black;
+    border-bottom: 6px solid white;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+
+/********** TABS **********/
+
+.nav-tabs{
+  background-color:white;
+  width: 100%;
+  border-bottom: 1px solid black
+  height: 100px;
+}
+
+.nav-tabs > li > a{
+  border: medium none;
+  color: #295120;
+}
+.nav-tabs > li > a:hover{
+  background-color: #295120 !important;
+    border: medium none;
+    border-radius: 0;
+    color:white;
+}
+
+.tab-content{
+    background-color:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.active[data-toggle='tab']{
+  background-color: #295120 !important;
+  color: white !important;
+}
+
+
+/********** CONTAINER DE TIPOS **********/
+
+.container_tipos{
+	width: 100%;
+	margin-top: 30px;
+	background-color: white;
+	padding: 10px 30px 10px 30px;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+
+.container_tipos h5{
+	border-bottom: 1px solid black;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+.container_tipos_agregados select{
+	margin-bottom: 10px;
+}
+
+.new_tipo form input[type="text"]{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 300px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.new_tipo form select{
+	margin-bottom: 10px;
+}
+
+
+.delete_tipo{
+	text-align: right;
+	padding-top: 5px;
+}
+
+.delete_tipo span:hover{
+	cursor: pointer;
+}
+
+.container_grupos_agregados{
+	border-right: 2px dashed black;
+}
+
+/********** CONTAINER DE GRUPOS **********/
+
+.container_grupos{
+	width: 100%;
+	margin-top: 30px;
+	background-color: white;
+	padding: 10px 30px 10px 30px;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+
+.container_grupos h5{
+	border-bottom: 1px solid black;
+	font-size: 17px;
+	margin-bottom: 15px;
+}
+
+.container_grupos_agregados select{
+	margin-bottom: 10px;
+}
+
+.new_grupo form input[type="text"]{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 300px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.new_grupo form select{
+	margin-bottom: 10px;
+}
+
+
+.delete_grupo{
+	text-align: right;
+	padding-top: 5px;
+}
+
+.delete_grupo span:hover{
+	cursor: pointer;
+}
+
+ul{
+    margin: 0px 0px 0px 20px; 
+    list-style: none; line-height: 2em; font-family: Arial;
+    li{
+        font-size: 16px;
+        position: relative;
+        &:before{
+            position: absolute;
+            left: -15px;
+            top: 0px;
+            content: '';
+            display: block;
+            border-left: 1px solid #ddd;
+            height: 1em;
+            border-bottom: 1px solid #ddd;
+            width: 10px;
+        }
+
+        &:after{
+            position: absolute;
+            left: -15px;
+            bottom: -7px;
+            content: '';
+            display: block;
+            border-left: 1px solid #ddd;
+            height: 100%;
+        }
+        
+      &.root_tree{
+          margin: 0px 0px 0px -20px;
+          &:before{
+            display: none;
+          }
+
+          &:after{
+            display: none;
+          }
+
+
+       }
+
+
+       &:last-child{
+          &:after{ display: none }
+        }
+    }
+}

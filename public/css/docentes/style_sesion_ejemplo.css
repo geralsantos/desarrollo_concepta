@@ -1,0 +1,324 @@
+
+/*
+    DEMO STYLE
+*/
+
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: inline-flex;
+    align-items: stretch;
+
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+
+/*-------Container del Sidebar------- */
+.container_sesion{
+    border: 3px solid red;
+    padding: 0 0;
+}
+
+
+/********************HEADER DEL SIDEBAR**************/
+
+.sidebar-header {
+    background: #6d7fcc;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left:10px;
+}
+
+.sidebar-header{
+    cursor: pointer;
+}
+
+
+.sidebar-header:hover{
+    color: #7386D5;
+    background: #fff;
+    cursor: pointer;
+}
+
+/*---------------(COLLAPSED)------------------ */
+/*-------Título del Curso en el Sidebar------- */
+
+.sidebar-header strong {
+    display: none;
+}
+
+.sidebar-header h3{
+    text-align: center;
+}
+
+
+
+/*---Icono al lado del título en el Sidebar------- */
+.fa-angle-left{
+    padding-left: 10px;
+}
+
+
+/*------------(NOT COLLAPSED)------------------ */
+/*-------Título del Curso en el Sidebar------- */
+
+#sidebar.active .sidebar-header h3{
+    display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+    display: block;
+    text-align: center;
+}
+
+
+
+/*---Icono al lado del título en el Sidebar------- */
+.fa-angle-right{
+    padding-left: 10px;
+}
+/*****************************************************/
+/*****************************************************/
+
+
+/***************SESIONES DEL SIDEBAR************* */
+/*---------------(COLLAPSED)--------------------- */
+
+.title_sesion:hover{
+    color: #7386D5;
+    background: #fff;
+    cursor: pointer;
+}
+
+/*-------Título de la sesion en el Sidebar------- */
+.title_sesion a{
+    display: block;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.title_sesion strong{
+    display: none;
+    font-size: 10px;
+}
+
+
+/*------------(NOT COLLAPSED)------------------ */
+/*-------Título de la sesion en el Sidebar------- */
+
+#sidebar.active .title_sesion a{
+    display: none;
+}
+
+#sidebar.active .title_sesion strong{
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 30%;
+    padding-right:30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.number_sesion{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 4px;
+
+}
+
+
+
+/*****************************************************/
+/*****************************************************/
+
+
+
+/***************TEMAS DEL SIDEBAR************* */
+
+
+.list_temas{
+    border: 1px solid black;
+}
+
+.list_temas a:hover, a.hovered{
+    color: #7386D5;
+    background: #fff;
+}
+
+/*---------------(COLLAPSED)--------------------- */
+
+.list_temas a{
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.list_temas_active a{
+    display: none;
+    font-size: 10px;
+}
+
+
+/*------------(NOT COLLAPSED)------------------ */
+
+
+#sidebar.active .list_temas a{
+    display: none;
+    padding-left: 0px;
+}
+
+
+#sidebar.active .list_temas strong{
+    text-align: center;
+
+}
+
+#sidebar.active .list_temas strong a{
+    display: block;
+    border: 1px solid black;
+    padding-left: 30%;
+    padding-right:30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#sidebar.active .list_temas strong a span{
+    display: block;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+
+/*****************************************************/
+/*****************************************************/
+
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+
+/*//////////////////      TÍTULO     ////////////////////////////*/
+
+.title_tema{
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+/*/////////////      MAIN CONTAINER    /////////////////////////*/
+
+.main_container{
+    border: 3px solid orange;
+}
+
+
+/*//////////////////      VIDEO     ////////////////////////////*/
+
+.container_video{
+    border: 3px solid red;
+}
+
+.video_tema{
+    width: 534px;
+    height: 300px;
+}
+
+/*//////////////////      TEXTBOX     ////////////////////////////*/
+
+.textbox_notas{
+    border: 3px solid blue;
+    height: 200px;
+    width: 100%;
+    
+}
+
+
+/*////////////////////    TABS     //////////////////////*/
+.container_tabs{
+
+}
+
+
+.tab-content{
+    border: 3px solid blue;
+
+}
+
+/************* DESCRIPCION******************/
+
+.content_descripcion{
+    padding-top: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+/************* MATERIAL*********************/
+
+
+.material{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fa-download{
+    cursor: pointer; 
+}
+
+/************* EJERCICIOS *********************/
+
+
+.ejercicio{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ejercicio a:hover{
+    text-decoration: underline;
+    color: blue;
+}

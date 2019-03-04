@@ -1,0 +1,157 @@
+/*****  TAB DE CURSOS  **********/
+.navegacion_admin, .navegacion_alumnos, .navegacion_docente, .navegacion_coordinador_empresa{
+
+    background-color: #295120;
+    padding-left: 50px;
+    height:70px;
+}
+
+.navegacion_admin a, .navegacion_alumnos a, .navegacion_docente a, .navegacion_coordinador_empresa a{
+    color: white;
+    font-size: 17px;
+}
+
+.tab_cursos{
+    color: black;
+    padding-top: 20px;
+    height: 70px;
+}
+
+/* ------CONTAINER--------*/
+
+.container{
+    height: 100%;
+}
+
+.fotoUsuario{
+    border: 1.5px dashed #000;
+}
+
+.circle_photo{
+    border: 1.2px dashed #000;
+    padding: 20px;
+}
+
+.container_cursos{
+    margin: auto;
+width: 100%;
+padding: 10px;
+height: 80%;
+}
+
+.btn-secondary{
+    background-color: #295120;
+}
+
+/* ------AGREGAR CURSO--------*/
+
+.add_curso{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px gray;
+}
+
+.text_crear_curso{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ------CARD--------*/
+
+
+.title_curso{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.time_curso{
+    font-size: 15px;
+}
+
+.average_curso{
+    text-align: right;
+}
+
+.average_curso span{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+}
+
+.triangle_curso{
+    text-align: right;
+}
+
+.add_colaboradores{
+    padding-top: 10px;
+}
+.fa-user-plus{
+    padding-right: 5px;
+}
+
+
+/* - CUADRO DESPLEGABLE - */
+.card{
+    box-shadow: 5px 5px 5px 0px gray;
+}
+
+
+.text_descripcion{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.description_curso{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.text_docente{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.container_foto{
+    padding-left: 6px;
+}
+
+.info_docente{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info_docente span{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+/* - Esta div solo modifica el contenido de la foto - */
+.docente_foto{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.photo_docente{
+    width: 80px;
+    height: 80px;
+}
+#preview-upload-photo{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+img.image_publicidad{
+    height: 70px;
+    width: 500px;
+}

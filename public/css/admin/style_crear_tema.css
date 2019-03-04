@@ -1,0 +1,237 @@
+/********** BARRA NAVEGACION **********/
+
+.bar_navegacion{
+	background-color: #295120;
+	text-align: center;
+	padding-left: 25px;
+	min-height: 100vh;
+}
+
+.bar_navegacion a{
+	margin-top: 10px;
+}
+
+.bar_navegacion h5{
+	margin-top: 10px;
+	color: white;
+
+}
+
+.btn-return{
+	background-color: white;
+	color: #295120;
+	width: 110px;
+	height: 60px;
+  white-space: normal;
+}
+
+.btn-tema{
+	background-color: white;
+	color: #295120;
+	width: 110px;
+}
+
+
+/********** BARRA SUPERIOR **********/
+
+.info_tema{
+	padding-left: 35px;
+	padding-top: 15px;
+	padding-right: 35px;
+	background-color: white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 0px;
+}
+
+.input_tema form input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 500px;
+}
+
+/********** TABS **********/
+
+.nav-tabs{
+  background-color:white;
+  width: 100%;
+}
+
+.nav-tabs > li > a{
+  border: medium none;
+  color: #295120;
+  
+}
+.nav-tabs > li > a:hover{
+  background-color: #295120 !important;
+    border: medium none;
+    border-radius: 0;
+    color:white;
+}
+
+.tab-content{
+    background-color:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.active[data-toggle='tab']{
+  background-color: #295120 !important;
+  color: white !important;
+}
+
+/********** CLASE **********/
+#clase{
+	background: white;
+	margin: 35px 35px 35px 35px;
+	box-shadow: 5px 5px 5px 0px gray;
+	height: auto;
+
+}
+
+.select_type{
+	padding-top: 20px;
+	padding-left: 50px;
+	margin-bottom: 10px;
+}
+
+
+.upload_text{
+	border-bottom: 1px solid black;
+	margin: 10px 20px 10px 20px;
+	padding-bottom: 10px;
+}
+
+.upload_button_video{
+	text-align: right;
+}
+
+.title_tema input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 500px;
+} 
+
+
+.description_archivo{
+	padding: 10px 30px 10px 30px;
+}
+
+#clase textarea{
+	width: 100%;
+	height: 250px;
+	padding: 15px;
+}
+
+.container_upload_content a{
+	margin-left: 35px;
+}
+/********** FIN DE CLASE **********/
+
+/********** MATERIAL **********/
+
+.main_container_material{
+	background: white;
+	margin: 35px 35px 35px 35px;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+.main_container_material a{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+
+.upload_text_material{
+	border-bottom: 1px solid black;
+	margin: 10px 20px 10px 20px;
+	padding-bottom: 10px;
+}
+
+.upload_button_material{
+	text-align: right;
+}
+
+
+.save_button_material{
+	text-align: right;
+}
+
+.save_button_material a{
+	text-decoration: none;
+}
+
+.title_material input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 500px;
+}
+
+/********** FIN DE MATERIAL **********/
+
+/********** EJERCICIO **********/
+
+.main_container_ejercicio{
+	background: white;
+	margin: 35px 35px 35px 35px;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+.main_container_ejercicio a{
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+
+.upload_text_ejercicio{
+	border-bottom: 1px solid black;
+	margin: 10px 20px 10px 20px;
+	padding-bottom: 10px;
+}
+
+.upload_button_ejercicio{
+	text-align: right;
+}
+
+
+.save_button_ejercicio{
+	text-align: right;
+}
+
+.save_button_ejercicio a{
+	margin: 0px;
+}
+
+
+.title_ejercicio input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 500px;
+}
+
+.options_ejercicio{
+	text-align: right;
+}
+
+.students_examenes{
+	padding-left: 50px;
+	padding-right: 35px;
+}
+
+/********** FIN DE EJERCICIO **********/

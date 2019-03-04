@@ -1,0 +1,221 @@
+
+/*****CONTENIDO INTRODUCTORIO**********/
+.intro{
+	position: relative;
+	background-color: white;
+	border-bottom: 1px solid black;
+
+}
+
+.video_introduccion iframe{
+	height: 200px !important;
+}
+
+.imagen_introduccion, .video_introduccion{
+	border: 1.7px dashed #000;
+}
+
+.imagen_introduccion img{
+	height: 200px !important;
+}
+
+/*////////////////////////////TABS///////////////////////////////////*/
+
+.nav-tabs{
+  background-color:white;
+  width: 100%;
+  height: 45px;
+}
+
+
+.nav-item{
+	border: medium none;
+  	color: #295120;
+}
+
+.parent_tabs .nav-item:hover{
+	border: medium none;
+    border-radius: 0;
+    color: white;
+    background: #295120;
+}
+
+.tab-content{
+    background-color:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.active[data-toggle='tab']{
+  background-color: #295120 !important;
+  color: white !important;
+}
+
+
+
+/********************************INICIO DE SESIONES*************************************/
+
+/************ BARRA SUPERIOR *************/
+
+.card{
+	background-color: white;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+/*---Linea 1 ------*/
+.linea_1_sesion{
+	height: 30px;
+
+}
+.text_sesion{
+	font-size: 15px;
+	float: left;
+}
+
+.quantity_temas{
+	font-size: 15px;
+	float:right;
+}
+/*---Linea 2 ------*/
+.title_sesion{
+	font-size: 20px;
+	float: left;
+}
+
+/* - Esta div crea el triangulo que está apuntando arriba - */
+div.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid black;
+	float: right;
+}
+
+
+/* - Esta div crea el triangulo que está apuntando abajo - */
+div.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 15px solid black;
+	float: right;
+}
+
+/************* DESPLEGABLE *************/
+
+.parent_sesiones{
+	  margin: auto;
+width: 100%;
+padding: 10px;
+height: 50%;
+}
+
+.time_tema{
+	float: right;
+	position: absolute;
+	right: 30px;
+}
+
+.title_tema a{
+	text-decoration: none;
+}
+
+/********************************FIN DE SESIONES*************************************/
+
+
+/****************************** INICIO DE EXÁMENES **********************************/
+.parent_examenes{
+	padding-right: 50px;
+	padding-left: 50px;
+	 margin: auto;
+width: 100%;
+padding: 10px;
+height: 50%;
+overflow: scroll;
+}
+
+.container_examen{
+	background-color: white;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+.text_examen{
+	font-size: 15px;
+	height: 30px;
+}
+
+/*-- Linea 1 --*/
+
+.title_examen{
+	font-size: 20px;
+	float: left;
+}
+
+.button_container_examen{
+	float:right;
+}
+
+/*-- Linea 2 --*/
+
+.time_examen{
+	float:left;
+}
+
+.container_nota{
+	text-align: right;
+}
+
+.text_nota_obtenida{
+	float: right;
+	padding-right: 5px;
+}
+
+.nota_examen{
+	float: right;
+	border: 2px solid black;
+	padding-right: 2.5px;
+	padding-left: 2.5px;
+}
+
+/******************************** FIN DE EXÁMENES ***********************************/
+
+
+
+/****************************** INICIO DE ACTIVIDADES *******************************/
+.parent_actividades, .parent_notas, .parent_asistencia, .parent_certificados{
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: auto;
+width: 100%;
+padding: 10px;
+height: 50%;
+overflow: scroll;
+}
+
+.container_actividad, .container_notas, .container_asistencia{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 20px;
+	background-color: white;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+.text_actividad{
+	font-size: 15px;
+	height: 30px;
+}
+
+/*-- Linea 1 --*/
+
+.title_actividad{
+	font-size: 20px;
+	float: left;
+}
+
+.button_container_actividad{
+	float:right;
+}
+
+/*************************** FIN DE ACTIVIDADES ********************************/

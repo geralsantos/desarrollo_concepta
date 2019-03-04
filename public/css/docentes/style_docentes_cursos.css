@@ -1,0 +1,100 @@
+
+/*****  TAB DE CURSOS  **********/
+.navegacion_docente{
+
+	background-color: #295120;
+	padding-left: 50px;
+	height:70px;
+
+}
+
+
+.navegacion_docente a{
+	color: white;
+	border-bottom: 5px solid white;
+	padding-top: 20px;
+	height: 100%;
+}
+
+.cantidadE{
+	position: relative;
+	font-size: 18px;
+	top: 3px;
+}
+
+.navegacion_docente div{
+	border: 5px solid white;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+}
+
+
+/*****  CONTENIDO DENTRO  **********/
+.container{
+	padding-top: 25px;
+}
+
+.container_curso{
+	border-radius: 3px;
+	background-color: white;
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+.title_curso{
+	text-align: left;
+	padding-left: 40px;
+	font-size: 17px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.title_curso span{
+	text-align: left;
+	padding-left: 40px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.button_curso{
+	text-align: right;
+	color: white;
+	padding-right: 40px;
+}
+
+.button_ingresar_curso{
+	background-color: #295120;
+}
+
+.button_ingresar_curso:hover{
+	background-color: rgba(41,81,32,.93);
+}
+
+
+.text_alumnos{
+	padding-left: 40px;
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+
+
+.time_curso{
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+.advance_curso{
+	padding-right: 40px;
+	text-align: right;
+	font-size: 14px;
+}
+
+.progress{
+	border-radius: 0px;
+	background-color: grey;
+}
+.progress-bar{
+	background-color: green;
+}

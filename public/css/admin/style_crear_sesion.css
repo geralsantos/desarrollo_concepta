@@ -1,0 +1,86 @@
+/********** BARRA SUPERIOR **********/
+
+.info_sesion{
+	text-align: center;
+}
+
+.input_sesion{
+	padding-left: 0px;
+	padding-top: 15px;
+	display: inline;
+	background-color: white;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.input_sesion form input{
+	border:none;
+	border-left: 5px solid green;
+	background: none;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 500px;
+}
+
+.text_add{
+	background-color: #295120;
+	color: white;
+	padding-top: 15px;
+	font-size: 20px;
+}
+
+
+
+/********** CONTAINER DE TEMAS **********/
+
+.add_tema{
+	text-align: center;
+	border: 2px dashed #295120;
+	padding-top: 15px;
+	color: #295120;
+}
+
+.temas_sesion a{
+	text-decoration: none;
+}
+
+.add_tema:hover{
+	color: white;
+}
+
+.container_tema{
+	background-color: white;
+	box-shadow: 5px 5px 5px 0px gray;
+	border-radius: 2px;
+	padding: 10px 30px 10px 30px;
+
+}
+
+.temas_sesion{
+	padding-top: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+
+.delete_column{
+	text-align: right;
+
+}
+
+.delete_column a{
+	text-decoration: none;
+	color: #295120;
+}
+
+.delete_column a:hover{
+	color: blue;
+}
+
+.btn-secondary{
+	margin-top: 15px;
+}
+
+/********** **********/
+

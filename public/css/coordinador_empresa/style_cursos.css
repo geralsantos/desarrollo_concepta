@@ -1,0 +1,112 @@
+/*****  TAB DE CURSOS  **********/
+.navegacion_coordinador_empresa{
+
+	background-color: #295120;
+	padding-left: 50px;
+	height:70px;
+
+}
+
+.navegacion_coordinador_empresa a{
+	color: white;
+	font-size: 17px;
+}
+
+.tab_cursos{
+	color: white;
+	border-bottom: 6px solid white;
+	padding-top: 20px;
+	height: 100%;
+}
+
+/* ------CONTAINER--------*/
+
+.container_cursos{
+	padding-top: 25px;
+}
+
+
+/* ------CARD--------*/
+
+.title_curso{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.time_curso{
+	font-size: 15px;
+}
+
+.button_curso{
+	text-align: right;
+	color: white;
+}
+
+.btn-secondary{
+	background-color: #295120
+}
+
+.boton_para_ingresar:hover{
+	background: rgba(41, 81, 32, 0.93);
+}
+
+.triangle_curso{
+	text-align: right;
+}
+
+.add_colaboradores{
+	padding-top: 10px;
+}
+.fa-user-plus{
+	padding-right: 5px;
+}
+
+
+/* - CUADRO DESPLEGABLE - */
+.card{
+	box-shadow: 5px 5px 5px 0px gray;
+}
+
+
+.text_descripcion{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.description_curso{
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+.text_docente{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.container_foto{
+	padding-left: 6px;
+}
+
+.info_docente{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.info_docente span{
+	font-weight: normal;
+	font-size: 15px;
+}
+
+/* - Esta div solo modifica el contenido de la foto - */
+.docente_foto{
+	border: 2px solid black;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.photo_docente{
+	width: 80px;
+	height: 80px;
+}

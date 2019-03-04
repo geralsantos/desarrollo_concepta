@@ -1,0 +1,98 @@
+/*****  TAB DE SIMULADORES  **********/
+.navegacion_admin{
+
+    background-color: #295120;
+    padding-left: 50px;
+    height:70px;
+}
+
+.navegacion_admin a{
+    color: white;
+    font-size: 17px;
+}
+
+.tab_simuladores{
+    color: black;
+    border-bottom: 6px solid white;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+/* ------CONTAINER--------*/
+
+
+.container_simuladores{
+    padding-top: 25px;
+    overflow-y: auto;
+}
+
+.btn-secondary{
+    background-color: #295120;
+}
+
+.btn-secondary:hover{
+    background: rgba(41,81,32,.95);
+}
+
+.container_simuladores a{
+    text-decoration: none;
+}
+
+/* ------AGREGAR SIMULADOR--------*/
+
+.add_simulador{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px gray;
+}
+
+.text_crear_simulador{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ------CARD--------*/
+.simulador{
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px gray;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+
+.title_simulador{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.time_simulador{
+    font-size: 15px;
+}
+
+.average_simulador{
+    text-align: right;
+}
+
+.average_simulador span{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+}
+
+.triangle_simulador{
+    text-align: right;
+}
+
+.add_colaboradores{
+    padding-top: 10px;
+}
+.fa-user-plus{
+    padding-right: 5px;
+}

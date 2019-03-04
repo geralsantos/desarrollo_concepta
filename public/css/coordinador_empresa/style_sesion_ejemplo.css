@@ -1,0 +1,389 @@
+#content {
+    padding: 35px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+
+.container_principal{
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px gray;
+    padding: 0px 35px 35px 35px;
+    height: 800px;
+    width: 1200px;
+}
+
+
+
+/* -----CONTENIDO A LA IZQUIERDA ------*/
+.title_tema{
+    margin-bottom: 25px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container_left{
+    padding-top: 10px;
+    overflow-y: auto;
+    height: 650px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+
+/*---- solucion para centrar video ------*/
+.video_tema{
+    width: 712px !important; /* you have to have a size or this method doesn't work */
+    height: 400px !important;
+    position: relative; /* positions according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */
+}
+
+.video_tema iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*---- solucion para centrar video ------*/
+
+.imagen_tema{
+    text-align: center;
+}
+
+.imagen_tema img{
+    width: 712px;
+    height: 400px;
+}
+
+
+
+/* -----CONTENIDO A LA DERECHA ------*/
+
+
+.container_right{
+    width: 1000px;
+    padding-right: 20px;
+    height: 650px;
+}
+
+
+/*////////////////////    TABS     //////////////////////*/
+.container_tabs{
+  height: 400px;
+
+}
+
+.nav-tabs{
+  background-color:white;
+  width: 100%;
+  height: 45px;
+}
+
+
+.nav-item{
+    border: medium none;
+    color: #295120;
+}
+.nav-item:hover{
+    background-color: #295120 !important;
+    border: medium none;
+    border-radius: 0;
+    color:white;
+}
+
+.tab-content{
+    box-shadow: 5px 5px 5px 5px gray;
+    height: 350px;
+    overflow-y: auto;
+    padding: 20px 35px 10px 35px;
+}
+
+.active[data-toggle='tab']{
+  background-color: #295120 !important;
+  color: white !important;
+}
+
+.tab-content{
+ /*   border: 3px solid blue; */
+
+}
+
+/************* DESCRIPCION******************/
+
+
+
+/************* MATERIAL*********************/
+
+.material{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fa-download{
+    cursor: pointer; 
+}
+
+/************* EXÁMENES*********************/
+
+.ejercicio{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ejercicio a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/*//////////////////      TEXTBOX     ////////////////////////////*/
+
+
+.container_textbox{
+    text-align: center;
+    padding-bottom: 30px;
+    padding: 30px;
+
+}
+
+.textbox_notas{
+   /* border: 3px solid blue; */
+    height: 200px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px gray;
+    
+}
+
+
+
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+
+
+.wrapper {
+    display: inline-flex;
+    align-items: stretch;
+
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #295120;
+    color: white;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+
+/*-------Container del Sidebar------- */
+.container_sesion{
+    /*border: 3px solid red;*/
+    padding: 0 0;
+}
+
+
+/********************HEADER DEL SIDEBAR**************/
+
+.sidebar-header {
+    background: #295120;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-left:10px;
+}
+
+.sidebar-header{
+    cursor: pointer;
+}
+
+
+.sidebar-header:hover{
+    color: #295120;
+    background: white;
+    cursor: pointer;
+}
+
+/*---------------(COLLAPSED)------------------ */
+/*-------Título del Curso en el Sidebar------- */
+
+.sidebar-header strong {
+    display: none;
+}
+
+.sidebar-header h3{
+    text-align: center;
+}
+
+
+
+/*---Icono al lado del título en el Sidebar------- */
+.fa-angle-left{
+    padding-left: 10px;
+}
+
+
+/*------------(NOT COLLAPSED)------------------ */
+/*-------Título del Curso en el Sidebar------- */
+
+#sidebar.active .sidebar-header h3{
+    display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+    display: block;
+    text-align: center;
+}
+
+
+
+/*---Icono al lado del título en el Sidebar------- */
+.fa-angle-right{
+    padding-left: 10px;
+}
+/*****************************************************/
+/*****************************************************/
+
+
+/***************SESIONES DEL SIDEBAR************* */
+/*---------------(COLLAPSED)--------------------- */
+
+.title_sesion:hover{
+    color: #295120;
+    background: white;
+    cursor: pointer;
+}
+
+/*-------Título de la sesion en el Sidebar------- */
+.title_sesion a{
+    display: block;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.title_sesion strong{
+    display: none;
+    font-size: 10px;
+}
+
+
+/*------------(NOT COLLAPSED)------------------ */
+/*-------Título de la sesion en el Sidebar------- */
+
+#sidebar.active .title_sesion a{
+    display: none;
+}
+
+#sidebar.active .title_sesion strong{
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 30%;
+    padding-right:30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.number_sesion{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 4px;
+
+}
+
+
+
+/*****************************************************/
+/*****************************************************/
+
+
+
+/***************TEMAS DEL SIDEBAR************* */
+
+
+.list_temas{
+    border: 1px solid black;
+}
+
+.list_temas a:hover, a.hovered{
+    color: #295120;
+    background: white;
+}
+
+/*---------------(COLLAPSED)--------------------- */
+
+.list_temas a{
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.list_temas_active a{
+    display: none;
+    font-size: 10px;
+}
+
+
+/*------------(NOT COLLAPSED)------------------ */
+
+
+#sidebar.active .list_temas a{
+    display: none;
+    padding-left: 0px;
+}
+
+
+#sidebar.active .list_temas strong{
+    text-align: center;
+
+}
+
+#sidebar.active .list_temas strong a{
+    display: block;
+    border: 1px solid black;
+    padding-left: 30%;
+    padding-right:30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#sidebar.active .list_temas strong a span{
+    display: block;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+
+/*****************************************************/
+/*****************************************************/
